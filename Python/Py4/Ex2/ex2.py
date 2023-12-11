@@ -24,10 +24,7 @@
 arr = [3, 8, 6, 9, 9, 9, 7, 5]
 # На выходе:
 
-
 # 19
-
-
 
 
 sum1 = 0
@@ -36,7 +33,7 @@ lent = len(arr)
 for a in range(lent):
     
     if a >= len(arr) - 2:
-        if sum1 <= sum(arr[a:] + arr[0:k]): 
+        if sum1 <= sum(arr[a:] + arr[0:k]): #
             sum1 = sum(arr[a:] + arr[0:k])
             k+=1
     elif sum1 <= sum(arr[a:a+3]):    
