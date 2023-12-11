@@ -4,7 +4,7 @@
 # Пример:
 
 
- 
+
 # 5
 
 # """
@@ -39,7 +39,7 @@ for i in list_1:
     if i > k and mem >= i - k:
         mem = i - k
         seg = i       
-        
+
 
 
 print(seg)
